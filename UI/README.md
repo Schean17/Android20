@@ -4,7 +4,7 @@
 
 ## 线性布局实现
 
-![image-20200329160833820](C:\Users\ikutarian\AppData\Roaming\Typora\typora-user-images\image-20200329160833820.png)
+![image-20200329160833820](README.assets/image-20200329160833820.png)
 
 
 
@@ -241,11 +241,11 @@ res/string.xml
 
 ```
 
-![image-20200329183915261](C:\Users\ikutarian\AppData\Roaming\Typora\typora-user-images\image-20200329183915261.png)
+![image-20200329183915261](README.assets/image-20200329183915261.png)
 
 ## ConstraintLayout  布局
 
-![image-20200329183928184](C:\Users\ikutarian\AppData\Roaming\Typora\typora-user-images\image-20200329183928184.png)
+![image-20200329183928184](README.assets/image-20200329183928184.png)
 
 ==在manifest.xml中的activity里加上【android:screenOrientation="landscape"】设置横屏布局==
 
@@ -374,13 +374,13 @@ AndroidManifest.xml
 > </manifest>
 > ```
 
-![image-20200329171829402](C:\Users\ikutarian\AppData\Roaming\Typora\typora-user-images\image-20200329171829402.png)
+![image-20200329171829402](README.assets/image-20200329171829402.png)
 
 
 
 ## 表格布局
 
-![image-20200329183947668](C:\Users\ikutarian\AppData\Roaming\Typora\typora-user-images\image-20200329183947668.png)
+![image-20200329183947668](README.assets/image-20200329183947668.png)
 
 android:gravity="left"设置左对齐
 
@@ -521,4 +521,4 @@ android:gravity="left"设置左对齐
 </TableLayout>
 ```
 
-![image-20200329165856883](C:\Users\ikutarian\AppData\Roaming\Typora\typora-user-images\image-20200329165856883.png)
+![image-20200329165856883](README.assets/image-20200329165856883.png)
