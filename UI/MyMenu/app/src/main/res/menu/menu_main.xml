@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="字体大小"
+        android:icon="@drawable/abc_vector_test">
+        <menu>
+            <group android:checkableBehavior="single" >
+
+                <item
+                    android:id="@+id/font_10"
+                    android:title="font_10" />
+
+                <item
+                    android:id="@+id/font_16"
+                    android:title="font_16" />
+                <item
+                    android:id="@+id/font_20"
+                    android:title="font_20" />
+
+            </group>
+
+
+        </menu>
+
+    </item>
+    <item android:id="@+id/normal_menu"
+        android:title="普通菜单" >
+
+    </item>
+
+    <item android:title="字体颜色"
+        android:icon="@drawable/abc_vector_test">
+        <menu>
+            <group  android:checkableBehavior="single">
+                <item
+                    android:id="@+id/red_font"
+                    android:title="red_title" />
+                <item
+                    android:id="@+id/black_font"
+                    android:title="black title" />
+
+
+            </group>
+
+        </menu>
+
+    </item>
+</menu>
