@@ -76,7 +76,8 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
         adapter = new NoteAdapter(getApplicationContext(), noteList);
         refreshListView();
         lv.setAdapter(adapter);
-
+        View view = LayoutInflater.from(MainActivity.this).inflate(R.layout.helder, null);
+        lv.addHeaderView(view);
         setSupportActionBar(myToolbar);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); //设置toolbar取代actionbar

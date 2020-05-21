@@ -8,9 +8,13 @@
 
 ## 大致流程图
 
-![image-20200520200325280](README.assets/image-20200520200325280.png)
+![image-20200520200325280](C:\Users\ikutarian\AppData\Roaming\Typora\typora-user-images\image-20200520200325280.png)
 
 
+
+
+
+![](README.assets/image-20200521114647917.png)
 
 ## 实现功能
 
@@ -18,7 +22,7 @@
 
 
 
-![image-20200520200657184](README.assets/image-20200520200657184.png)
+![](README.assets/image-20200521114736680.png)
 
 
 
@@ -30,9 +34,9 @@
 
 点击search按钮时拦截器进行拦截，将newText与数据库中的内容进行比较，有则显提示发生变化，刷新达到显示
 
-![image-20200520201014460](README.assets/image-20200520201014460.png)
+![image-20200520201014460](C:\Users\ikutarian\AppData\Roaming\Typora\typora-user-images\image-20200520201014460.png)
 
-![image-20200520202543140](README.assets/image-20200520202543140.png)
+![image-20200520202543140](C:\Users\ikutarian\AppData\Roaming\Typora\typora-user-images\image-20200520202543140.png)
 
 > 接收提醒，刷新数据
 
@@ -82,7 +86,7 @@ class MyFilter extends Filter {
 
 ### 2.实现时间戳功能
 
-![image-20200520202809067](README.assets/image-20200520202809067.png)
+![image-20200520202809067](C:\Users\ikutarian\AppData\Roaming\Typora\typora-user-images\image-20200520202809067.png)
 
  
 
@@ -136,7 +140,13 @@ class MyFilter extends Filter {
 
 ```
 
-### 3.欢迎页
+### 3.contentprovider的getView优化
+
+![image-20200521113610213](README.assets/image-20200521113610213.png)
+
+创建静态类ViewHolder存放View，将View缓存至ViewHolder，减少findViewById的调用次数
+
+### 4.欢迎页
 
 使用Handler设置
 
@@ -206,10 +216,10 @@ public class FirstActivity  extends Activity {
 </LinearLayout>
 ```
 
-![image-20200520203105321](README.assets/image-20200520203105321.png)
+![image-20200520203105321](C:\Users\ikutarian\AppData\Roaming\Typora\typora-user-images\image-20200520203105321.png)
 
 
 
 
 
-![image-20200520203209851](README.assets/image-20200520203209851.png)
+![image-20200520203209851](C:\Users\ikutarian\AppData\Roaming\Typora\typora-user-images\image-20200520203209851.png)
