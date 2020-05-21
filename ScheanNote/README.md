@@ -223,3 +223,15 @@ public class FirstActivity  extends Activity {
 
 
 ![image-20200520203209851](C:\Users\ikutarian\AppData\Roaming\Typora\typora-user-images\image-20200520203209851.png)
+
+
+
+
+
+## 参考资料：
+
+[Android：ListView与AdapterView全面解析](https://www.jianshu.com/p/4e8e4fd13cf7)
+
+[Android开源实战：一个简单 & 好用的搜索框](https://www.jianshu.com/p/590f00025de3)
+
+[Android 欢迎界面停留3秒的实现](https://blog.csdn.net/huplion/article/details/52612098)
